@@ -30,6 +30,7 @@ jobs:
           # It also emits such aliases as lts, latest, nightly and canary builds
           # Examples: 12.x, 10.15.1, >=10.15.0, lts/Hydrogen, 16-nightly, latest, node
           node-version: ''
+      - run: npm ci
       # Runs a single command using the runners shell
       - name: build
         run: npm run build
